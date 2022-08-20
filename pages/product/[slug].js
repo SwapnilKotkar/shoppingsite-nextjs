@@ -38,7 +38,7 @@ const ProductDetails = ({product, products}) => {
                 </div>
                 <h4>Detail:</h4>
                 <p>{details}. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, cupiditate dicta commodi consequatur obcaecati saepe nulla praesentium explicabo totam cumque!</p>
-                <p className="price">${price}</p>
+                <p className="price">₹{price}</p>
                 <div className="quantity">
                     <h3>Quantity:</h3>
                     <p className='quantity-desc'>
