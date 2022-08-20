@@ -6,8 +6,6 @@ const index = ({products, bannerData}) => {
   return (
     <>
       <HeroBanner heroBanner = {bannerData.length && bannerData[0]}/>
-      {console.log(bannerData)}
-      {console.log(products)}
 
       <div className="products-heading">
         <h2>Best Seller Products</h2>
